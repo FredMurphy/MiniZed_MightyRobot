@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2019.2 (64-bit)              -->
+<!-- Product Version: Vivado v2019.2.1 (64-bit)              -->
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="D:/Documents/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.xpr">
+<Project Version="7" Minor="44" Path="C:/Workspace/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="54e14826c2374f7fa9976aaeb2e5d1f3"/>
@@ -18,8 +18,8 @@
     <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
     <Option Name="BoardPart" Val="em.avnet.com:minized:part0:1.2"/>
-    <Option Name="BoardPartRepoPaths" Val="C:/Users/fred2/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store"/>
-    <Option Name="BoardPartRepoPaths" Val="C:/Users/fred2/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../Users/fred2/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../Users/fred2/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>

@@ -1,0 +1,64 @@
+ Program
+   Robot Program
+     Home
+     Gripper Activate
+     Gripper Close (1)
+     Loop
+       If digital_in[0] ≟ True 
+         MoveJ
+           Waypoint_1
+         MoveP
+           Waypoint_3
+           Waypoint_5
+           Waypoint_6
+           Waypoint_7
+           Waypoint_1
+       ElseIf digital_in[1] ≟ True 
+         MoveJ
+           Waypoint_1
+         MoveP
+           Waypoint_1
+           CircleMove
+             ViaPoint_1
+             EndPoint_1
+           CircleMove
+             ViaPoint_2
+             EndPoint_2
+       ElseIf digital_in[2] ≟ True 
+         MoveJ
+           above_mz
+         Gripper Open (1)
+         MoveL
+           pickup_mz
+         Gripper Move20% (1)
+         MoveL
+           above_mz
+         MoveJ
+           show_mz
+         Wait: 3.0
+         MoveJ
+           above_mz
+         MoveL
+           pickup_mz
+         Gripper Open (1)
+         MoveL
+           above_mz
+         Gripper Close (1)
+       ElseIf digital_in[3] ≟ True 
+         MoveJ
+           Waypoint_2
+           near1
+         MoveL
+           press1
+           near1
+           near2
+           press2
+           near2
+           near3
+           press3
+           near3
+         MoveJ
+           Waypoint_2
+           Waypoint_1
+       ElseIf  True 
+         Home

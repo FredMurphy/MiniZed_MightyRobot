@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2019.2 (win64) Build 2700185 Thu Oct 24 18:46:05 MDT 2019
-// Date        : Thu Feb  6 14:33:34 2020
-// Host        : Optiplex running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2019.2.1 (win64) Build 2729669 Thu Dec  5 04:49:17 MST 2019
+// Date        : Fri Feb  7 15:07:31 2020
+// Host        : CTLL106 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
-//               d:/Documents/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
+//               C:/Workspace/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
 // Design      : design_1_processing_system7_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z007sclg225-1
@@ -13,16 +13,17 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2019.2" *)
+(* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2019.2.1" *)
 module design_1_processing_system7_0_0(GPIO_I, GPIO_O, GPIO_T, I2C0_SDA_I, I2C0_SDA_O, 
   I2C0_SDA_T, I2C0_SCL_I, I2C0_SCL_O, I2C0_SCL_T, SDIO0_CLK, SDIO0_CLK_FB, SDIO0_CMD_O, 
   SDIO0_CMD_I, SDIO0_CMD_T, SDIO0_DATA_I, SDIO0_DATA_O, SDIO0_DATA_T, SDIO0_LED, SDIO0_CDN, 
   SDIO0_WP, SDIO0_BUSPOW, SDIO0_BUSVOLT, UART0_DTRN, UART0_RTSN, UART0_TX, UART0_CTSN, 
-  UART0_DCDN, UART0_DSRN, UART0_RIN, UART0_RX, USB0_PORT_INDCTL, USB0_VBUS_PWRSELECT, 
-  USB0_VBUS_PWRFAULT, FCLK_CLK0, FCLK_CLK1, FCLK_RESET0_N, MIO, DDR_CAS_n, DDR_CKE, DDR_Clk_n, 
-  DDR_Clk, DDR_CS_n, DDR_DRSTB, DDR_ODT, DDR_RAS_n, DDR_WEB, DDR_BankAddr, DDR_Addr, DDR_VRN, 
-  DDR_VRP, DDR_DM, DDR_DQ, DDR_DQS_n, DDR_DQS, PS_SRSTB, PS_CLK, PS_PORB)
-/* synthesis syn_black_box black_box_pad_pin="GPIO_I[3:0],GPIO_O[3:0],GPIO_T[3:0],I2C0_SDA_I,I2C0_SDA_O,I2C0_SDA_T,I2C0_SCL_I,I2C0_SCL_O,I2C0_SCL_T,SDIO0_CLK,SDIO0_CLK_FB,SDIO0_CMD_O,SDIO0_CMD_I,SDIO0_CMD_T,SDIO0_DATA_I[3:0],SDIO0_DATA_O[3:0],SDIO0_DATA_T[3:0],SDIO0_LED,SDIO0_CDN,SDIO0_WP,SDIO0_BUSPOW,SDIO0_BUSVOLT[2:0],UART0_DTRN,UART0_RTSN,UART0_TX,UART0_CTSN,UART0_DCDN,UART0_DSRN,UART0_RIN,UART0_RX,USB0_PORT_INDCTL[1:0],USB0_VBUS_PWRSELECT,USB0_VBUS_PWRFAULT,FCLK_CLK0,FCLK_CLK1,FCLK_RESET0_N,MIO[31:0],DDR_CAS_n,DDR_CKE,DDR_Clk_n,DDR_Clk,DDR_CS_n,DDR_DRSTB,DDR_ODT,DDR_RAS_n,DDR_WEB,DDR_BankAddr[2:0],DDR_Addr[14:0],DDR_VRN,DDR_VRP,DDR_DM[1:0],DDR_DQ[15:0],DDR_DQS_n[1:0],DDR_DQS[1:0],PS_SRSTB,PS_CLK,PS_PORB" */;
+  UART0_DCDN, UART0_DSRN, UART0_RIN, UART0_RX, TTC0_WAVE0_OUT, TTC0_WAVE1_OUT, TTC0_WAVE2_OUT, 
+  USB0_PORT_INDCTL, USB0_VBUS_PWRSELECT, USB0_VBUS_PWRFAULT, FCLK_CLK0, FCLK_CLK1, 
+  FCLK_RESET0_N, MIO, DDR_CAS_n, DDR_CKE, DDR_Clk_n, DDR_Clk, DDR_CS_n, DDR_DRSTB, DDR_ODT, 
+  DDR_RAS_n, DDR_WEB, DDR_BankAddr, DDR_Addr, DDR_VRN, DDR_VRP, DDR_DM, DDR_DQ, DDR_DQS_n, DDR_DQS, 
+  PS_SRSTB, PS_CLK, PS_PORB)
+/* synthesis syn_black_box black_box_pad_pin="GPIO_I[3:0],GPIO_O[3:0],GPIO_T[3:0],I2C0_SDA_I,I2C0_SDA_O,I2C0_SDA_T,I2C0_SCL_I,I2C0_SCL_O,I2C0_SCL_T,SDIO0_CLK,SDIO0_CLK_FB,SDIO0_CMD_O,SDIO0_CMD_I,SDIO0_CMD_T,SDIO0_DATA_I[3:0],SDIO0_DATA_O[3:0],SDIO0_DATA_T[3:0],SDIO0_LED,SDIO0_CDN,SDIO0_WP,SDIO0_BUSPOW,SDIO0_BUSVOLT[2:0],UART0_DTRN,UART0_RTSN,UART0_TX,UART0_CTSN,UART0_DCDN,UART0_DSRN,UART0_RIN,UART0_RX,TTC0_WAVE0_OUT,TTC0_WAVE1_OUT,TTC0_WAVE2_OUT,USB0_PORT_INDCTL[1:0],USB0_VBUS_PWRSELECT,USB0_VBUS_PWRFAULT,FCLK_CLK0,FCLK_CLK1,FCLK_RESET0_N,MIO[31:0],DDR_CAS_n,DDR_CKE,DDR_Clk_n,DDR_Clk,DDR_CS_n,DDR_DRSTB,DDR_ODT,DDR_RAS_n,DDR_WEB,DDR_BankAddr[2:0],DDR_Addr[14:0],DDR_VRN,DDR_VRP,DDR_DM[1:0],DDR_DQ[15:0],DDR_DQS_n[1:0],DDR_DQS[1:0],PS_SRSTB,PS_CLK,PS_PORB" */;
   input [3:0]GPIO_I;
   output [3:0]GPIO_O;
   output [3:0]GPIO_T;
@@ -53,6 +54,9 @@ module design_1_processing_system7_0_0(GPIO_I, GPIO_O, GPIO_T, I2C0_SDA_I, I2C0_
   input UART0_DSRN;
   input UART0_RIN;
   input UART0_RX;
+  output TTC0_WAVE0_OUT;
+  output TTC0_WAVE1_OUT;
+  output TTC0_WAVE2_OUT;
   output [1:0]USB0_PORT_INDCTL;
   output USB0_VBUS_PWRSELECT;
   input USB0_VBUS_PWRFAULT;

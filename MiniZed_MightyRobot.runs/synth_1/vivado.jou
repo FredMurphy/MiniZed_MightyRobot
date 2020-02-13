@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2019.2 (64-bit)
-# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
-# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
-# Start of session at: Thu Feb  6 17:04:29 2020
-# Process ID: 1356
-# Current directory: D:/Documents/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.runs/synth_1
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Feb  7 15:07:34 2020
+# Process ID: 18816
+# Current directory: C:/Workspace/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
-# Log file: D:/Documents/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.runs/synth_1/design_1_wrapper.vds
-# Journal file: D:/Documents/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.runs/synth_1\vivado.jou
+# Log file: C:/Workspace/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Workspace/Xilinx/MiniZed_MightyRobot/MiniZed_MightyRobot.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace

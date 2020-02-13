@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2019.2 (win64) Build 2700185 Thu Oct 24 18:46:05 MDT 2019
-| Date             : Thu Feb  6 17:06:39 2020
-| Host             : Optiplex running 64-bit major release  (build 9200)
+| Tool Version     : Vivado v.2019.2.1 (win64) Build 2729669 Thu Dec  5 04:49:17 MST 2019
+| Date             : Fri Feb  7 15:09:00 2020
+| Host             : CTLL106 running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
 | Device           : xc7z007sclg225-1
@@ -66,30 +66,30 @@ Table of Contents
 1.2 Power Supply Summary
 ------------------------
 
-+-----------+-------------+-----------+-------------+------------+
-| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
-+-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.006 |       0.000 |      0.006 |
-| Vccaux    |       1.800 |     0.007 |       0.000 |      0.007 |
-| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
-| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
-| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
-| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
-| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
-| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
-| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
-| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccpint   |       1.000 |     0.690 |       0.664 |      0.026 |
-| Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 |
-| Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |
-| Vcco_ddr  |       1.350 |     0.321 |       0.319 |      0.002 |
-| Vcco_mio0 |       3.300 |     0.003 |       0.002 |      0.001 |
-| Vcco_mio1 |       3.300 |     0.002 |       0.001 |      0.001 |
-| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
-+-----------+-------------+-----------+-------------+------------+
++-----------+-------------+-----------+-------------+------------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Budget (A)  | Margin (A) |
++-----------+-------------+-----------+-------------+------------+-------------+------------+
+| Vccint    |       1.000 |     0.006 |       0.000 |      0.006 | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.007 |       0.000 |      0.007 | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 | Unspecified | NA         |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.690 |       0.664 |      0.026 | Unspecified | NA         |
+| Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 | Unspecified | NA         |
+| Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 | Unspecified | NA         |
+| Vcco_ddr  |       1.350 |     0.321 |       0.319 |      0.002 | Unspecified | NA         |
+| Vcco_mio0 |       3.300 |     0.003 |       0.002 |      0.001 | Unspecified | NA         |
+| Vcco_mio1 |       3.300 |     0.002 |       0.001 |      0.001 | Unspecified | NA         |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 | Unspecified | NA         |
++-----------+-------------+-----------+-------------+------------+-------------+------------+
 
 
 1.3 Confidence Level

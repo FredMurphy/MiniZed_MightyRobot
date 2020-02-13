@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# 
+# Start of session at: Thu Feb  6 17:30:58 2020
+# Process ID: 11192
+# Current directory: D:/Documents/Xilinx/MiniZed_MightyRobot/workspace/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: D:/Documents/Xilinx/MiniZed_MightyRobot/workspace/webtalk/webtalk.log
+# Journal file: D:/Documents/Xilinx/MiniZed_MightyRobot/workspace/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

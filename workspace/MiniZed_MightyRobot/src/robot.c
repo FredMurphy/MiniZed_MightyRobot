@@ -33,27 +33,20 @@
 /*
  * robot.c: Control a Universal Robots UR5e over PMOD 1
  *
- * This application configures UART 16550 to baud rate 9600.
  * PS7 UART (Zynq) is not initialized by this application, since bootrom/bsp configures it to baud rate 115200
  *
- * ------------------------------------------------
- * | UART TYPE   BAUD RATE                        |
- * ------------------------------------------------
- *   uartns550   9600
- *   uartlite    Configurable only in HW design
- *   ps7_uart    115200 (configured by bootrom/bsp)
+ * ps7_uart    115200 (configured by bootrom/bsp)
  */
 
 #include <stdio.h>
 #include "platform.h"
-//#include "xil_printf.h"
 #include "xgpiops.h"
 
 #define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
 #define PIN_1 54
-#define PIN_2 54+1
-#define PIN_3 54+2
-#define PIN_4 54+3
+#define PIN_2 55
+#define PIN_3 56
+#define PIN_4 57
 
 XGpioPs Gpio;
 XGpioPs_Config *ConfigPtr;
@@ -68,29 +61,40 @@ int main()
     init_platform();
     init_gpio();
 
-    print("Control an industrial robot from the MiniZed!\n\r");
+    print("Control an industrial robot from the MiniZed!\r\n\r\n");
+	print("\r\nSelect a robot program to run\r\n");
+	print("  S - Square\r\n");
+	print("  C - Circle\r\n");
+	print("  M - Pick up MiniZed\r\n");
+	print("  L - Turn off the lights\r\n");
+	print("  X - Stop\r\n\r\n");
 
 	char key_input;
 
 	while(1){
 
-		display_menu();
 		read(1, (char*)&key_input, 1);
 
-		switch (key_input) {
-			case '1':
+		// ignore case
+		switch (key_input & 0xDF) {
+			case 'S':
+				print("Square\r\n");
 				set_pin(PIN_1);
 				break;
-			case '2':
+			case 'C':
+				print("Circle\r\n");
 				set_pin(PIN_2);
 				break;
-			case '3':
+			case 'M':
+				print("MiniZed\r\n");
 				set_pin(PIN_3);
 				break;
-			case '4':
+			case 'L':
+				print("Turning off the lights\r\n");
 				set_pin(PIN_4);
 				break;
-			case '0':
+			case 'X':
+				print("Stop\r\n");
 				clear_all();
 				break;
 		}
@@ -102,9 +106,6 @@ int main()
 
 void display_menu()
 {
-	print("\r\nSelect a robot program to run\r\n");
-	print("  1-4 to run a program\r\n");
-	print("  0 to stop\r\n");
 }
 
 /*
